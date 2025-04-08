@@ -14,15 +14,17 @@ This repository serves as a **central hub** where multiple projects — from CLI
 - **Amazing Numbers**
   - Analyze numeric properties
   
-    Buzz	number    : divisible by 7 or ends with 7.
-    Duck number    : contains at least one zero (excluding leading zero).
-    Palindromic	   : Reads the same backward and forward (e.g. 121, 1331).
-    Gapful	        : 3 digits and divisible by the number formed by first and last digit.
-    Spy	Sum        : digits equals product of digits (e.g. 123: 1+2+3 == 1×2×3).
-    Sunny & Square : if n+1 is a perfect square. A number is square if it’s a perfect square.
-    Jumping	Digits : subsequent number differ by 1 (e.g. 123, 8987).
-    Happy & Sad	    : numbers which eventually reach 1 when replaced by the sum of the squares of their digits is "happy". Otherwise, they’re "sad".
-    Even & Odd	
+| Property         | Description                                                               |
+|------------------|-----------------------------------------------------------------------------|
+| Buzz             | Divisible by 7 or ends with 7                                               |
+| Duck             | Contains at least one zero (excluding leading zero)                         |
+| Palindromic      | Reads the same backward and forward (e.g. 121, 1331)                        |
+| Gapful           | At least 3 digits, divisible by first+last digit formed number              |
+| Spy              | Sum of digits equals product (e.g. 123 → 1+2+3 == 1×2×3)                    |
+| Sunny & Square   | Sunny if `n+1` is a perfect square; square if `n` is a perfect square       |
+| Jumping          | Digits differ by 1 (e.g. 123, 8987)                                         |
+| Happy & Sad      | Happy if sum-of-squares of digits eventually leads to 1, otherwise Sad      |
+| Even & Odd       | Basic parity check                                                          |
 
    
 - **Will be added as project goes on**
