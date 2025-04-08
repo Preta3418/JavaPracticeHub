@@ -10,7 +10,6 @@ This repository serves as a **central hub** where multiple projects — from CLI
 
 - **Practice Hub CLI**
   - A text-based main menu to navigate and run different modules
-  - Currently includes: `Amazing Numbers`
 
 - **Amazing Numbers**
   - Analyze numeric properties
